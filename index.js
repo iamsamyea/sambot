@@ -33,11 +33,11 @@ for (const file of commandFiles) {
 };
 
 // Client login
-client.login(process.env.token);
+client.login("MTIyMzI4MDY4MzA4NzE2NzU1MA.GnlU22.k2RuqP8_s9DB_3aQrei6AznMrGUYSu80UQz0pw")
 
 client.once('ready', () => {
 	log.info(`I am logged in as ${client.user.tag} to Discord!`); // Say hello to console
-    client.user.setActivity(`${config.prefix}help │ Anxile Community`, { type: "WATCHING" }); // Set the bot's activity status
+    client.user.setActivity(`${config.prefix}help / s4mgen`, { type: "WATCHING" }); // Set the bot's activity status
     /* You can change the activity type to:
      * LISTENING
      * WATCHING
